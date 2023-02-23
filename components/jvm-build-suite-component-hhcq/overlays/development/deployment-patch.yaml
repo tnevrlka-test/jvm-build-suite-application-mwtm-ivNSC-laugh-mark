@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-hhcq
+  namespace: jvm-build-axli-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:d95f3de228202d30ac07d292625f0d5c4fddcc4bc4ea36ee07d9eb9dbce41671
+        name: container-image
+        resources: {}
+status: {}
