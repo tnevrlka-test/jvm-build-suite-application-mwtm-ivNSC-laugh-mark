@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-hhcq
     app.kubernetes.io/part-of: jvm-build-suite-application-mwtm
-  name: jvm-build-suite-componentznga
+  name: jvm-build-suite-componentlevz
   namespace: jvm-build-axli-tenant
 spec:
   port:
